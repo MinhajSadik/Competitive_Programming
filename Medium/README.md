@@ -1,3 +1,3 @@
-# Competitive-Programming_C-CPP
+# Competitive-Programming_With-C/C++
 
-## Medium Lavel Learing Code
+## Medium Label Learing Code
