@@ -9,10 +9,12 @@ int main(){
 
     cin >> cgpa;
 
-    if (cgpa >= 4.00){
-    cout << " Your Grade Is A" << endl;
-    }else{
-    cout << " Your Grade Is not A " << endl;
+    if (cgpa == 4){
+    cout << "Your Grade Is 'A(+)'" << endl;
+    }else if(cgpa >= 3.75){
+    cout << "Your Grade Is A " << endl;
+    }else {
+        cout << "Your Grade Is B" << endl;
     }
 
     return 0;
