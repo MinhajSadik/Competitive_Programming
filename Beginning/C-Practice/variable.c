@@ -1,39 +1,32 @@
 #include <stdio.h>
   
-int main()
-{
-  
+int main(){
     // Declare the variables
     int num;
-    char ch;
     float f;
-  
-    // --- Integer ---
-  
+    char name[20];
+    char ch;
+    
     // Input the integer
-    printf("Enter the integer: ");
+    printf("Enter the integer:");
     scanf("%d", &num);
   
     // Output the integer
-    printf("\nEntered integer is: %d", num);
-  
-    // --- Float ---
-  
+    printf("\n You Entered integer is: %d \n", num);
+
     // Input the float
     printf("\n\nEnter the float: ");
     scanf("%f", &f);
   
     // Output the float
-    printf("\nEntered float is: %f", f);
-  
-    // --- Character ---
-  
-    // Input the Character
-    printf("\n\nEnter the Character: ");
+    printf("\n You Entered float is: %f \n", f);
+
+     // Input the Character
+    printf("Enter the Character:");
     scanf("%c", &ch);
   
     // Output the Character
-    printf("\nEntered integer is: %c", ch);
-  
+    printf("You Entered Character is: %c \n", ch);
+
     return 0;
 }
