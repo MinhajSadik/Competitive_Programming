@@ -9,14 +9,14 @@ function sumOfCode(n) {
   return sum;
 }
 
-console.log(sumOfCode(10));
+// console.log(sumOfCode(10));
 
 //Time Complexity: BigO(1)
 function sumOfCode1(n) {
   return (n * (n + 1)) / 2;
 }
 
-console.log(sumOfCode1(10));
+// console.log(sumOfCode1(10));
 
 //Time Complexity: BigO(n^2)
 function multipleOfCode(n) {
@@ -30,4 +30,21 @@ function multipleOfCode(n) {
   return sum;
 }
 
-console.log(multipleOfCode(5));
+// console.log(multipleOfCode(5));
+
+//Time Complexity: O(n)
+function minLog(n) {
+  for (let i = 0; i <= Math.max(5, n); i++) {
+    console.log(i);
+  }
+}
+console.log(minLog(4));
+
+//Time Complexity: BigO(1)
+function maxLog(n) {
+  for (let i = 0; i <= Math.min(5, n); i++) {
+    console.log(i);
+  }
+}
+
+console.log(maxLog(3));
