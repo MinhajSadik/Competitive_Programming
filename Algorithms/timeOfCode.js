@@ -60,6 +60,7 @@ function fibonacci(n) {
 
 console.log(fibonacci(10));
 
+//Time Complexity of Factorial: O(n)
 function factorial(n) {
   // return n === 1 ? 1 : n * factorial(n - 1);
   // if (n === 1) {
