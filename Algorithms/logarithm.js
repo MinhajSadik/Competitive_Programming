@@ -9,7 +9,7 @@ function logarithm(n) {
   return n;
 }
 
-console.log(logarithm(16));
+// console.log(logarithm(16));
 
 function anotherLogarithm(n) {
   if (n <= 1) {
@@ -18,4 +18,4 @@ function anotherLogarithm(n) {
   return anotherLogarithm(n / 2);
 }
 
-console.log(anotherLogarithm(16));
+console.log(anotherLogarithm(8));
